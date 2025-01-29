@@ -93,7 +93,7 @@
             }
             else
             {
-                Console.WriteLine("Pressing button...");
+                //Console.WriteLine("Pressing button...");
                 while (numberOfPresses > buttons[number - 1].letters.Length)
                 {
                     yield return buttons[number - 1].letters.Last();
